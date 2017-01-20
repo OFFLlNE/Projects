@@ -1,0 +1,25 @@
+body{
+  margin-top:5%;
+  text-align:center;
+  background-color:#000029;
+  background-size:cover;
+}
+
+.myButton{
+  width:50%;
+  height:40px;
+  position:auto;
+  background: #0688fa;
+  color:yellow;
+}
+
+
+.textHere {
+    font-size:150%;
+    color: yellow;
+    position: auto;
+    width: 50%;
+    padding: 5%;
+    margin: auto;
+}
+

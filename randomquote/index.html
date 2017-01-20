@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OFFLlNE's random Quote Machine</title>
+	<link rel="stylesheet" src="maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div align="center" class="container-fluid">
+	  <button id = "getMessage" class = "myButton">
+	    Click for a New Quote!
+	  </button>
+	  <div id = "quoteHere" class="textHere">
+	  </div>
+	  <button class="twitter-share-button myButton fa fa-twitter">
+	    Tweet it!
+	  </botton>
+	</div>
+<script src="scripts.js"></script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>	
+</body>
+</html>
