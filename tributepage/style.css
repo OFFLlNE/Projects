@@ -1,0 +1,59 @@
+body {
+  margin-top:30px;
+  background-color:#2a2a2a;
+  text-align: center;
+  color:yellow;
+  overflow: hidden;
+}
+p{
+  padding:30px;
+  text-align: justify;
+}
+.footer{
+  background-color: #333;
+  margin-top:30px;
+  color:#ffff61;
+}
+
+.bolt{
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+h3{
+  color:#d7e8b8;
+}
+
+.text{
+  color:#d7e8b8;
+}
+
+.card-grid {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.card-grid .front, .card-grid .back {
+  word-wrap: break-word;
+  padding: 1px;
+  text-align: center;
+  border: 1px yellow solid;
+}
+
+.card-grid .front {
+  background-color: #333;
+  font-size: 40px;
+}
+
+.card-grid .back {
+  background-color: #333;
+  color: yellow;
+}
+
+a{
+  color:yellow;
+}
