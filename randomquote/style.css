@@ -6,11 +6,15 @@ body{
 }
 
 .myButton{
+  font-family: Goudy Old Style;
   width:50%;
   height:40px;
   position:auto;
   background: #0688fa;
   color:yellow;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 15px;
 }
 
 
@@ -23,3 +27,8 @@ body{
     margin: auto;
 }
 
+@media only screen and (max-width: 650px) {
+    .myButton{
+      font-size: 15px;
+    }
+}
