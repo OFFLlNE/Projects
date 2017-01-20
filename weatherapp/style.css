@@ -1,0 +1,32 @@
+body{
+  padding-top:1%;
+  background-color:#14070b;
+  text-align:center;
+  color:white;
+}
+
+p {
+  font-size:250%;
+  margin:0.3%;
+}
+
+.smallText{
+  font-size:100%;    
+}
+
+button.link {
+  background:none;
+  border:none;
+  color:#0d7cc0;
+  font-size:150%;
+}
+
+.temperature{
+  font-size:400%;
+}
+
+.icon{
+  margin-top: 25px;
+  padding-top:0.6%;
+  font-size:500%;
+}
