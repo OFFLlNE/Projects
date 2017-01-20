@@ -1,0 +1,39 @@
+body{
+  margin:2%;
+  text-align:center;
+  background-color:#bcdef5;
+  color:#00002e;
+}
+
+.intro{
+  font-size:250%;
+}
+
+.myButton{
+  background:#00002e;
+  color:#bcdef5;
+  padding:1%;
+}
+
+.search{
+  padding:1%;
+}
+
+.wikiPages{
+  width:50%;
+  margin: 0 auto;
+}
+h3 {
+  margin-bottom:0;
+}
+
+.myText {
+  background-color:white;
+  color: #00002e;
+}
+
+p.myText {
+  background-color:white;
+  color: #00002e;
+  margin-top: -1px;
+}
