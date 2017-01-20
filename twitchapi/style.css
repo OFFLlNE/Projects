@@ -1,0 +1,36 @@
+body{
+  text-align:center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.streamInfo{
+  margin: 1%;
+}
+
+.streamStatus{
+  font-size:200%;
+}
+
+.streamer{
+  font-weight:bold;
+  margin-top:0.3%;
+}
+
+.eachStream{
+  margin:0.5%;
+  background-color:#D3D3D3;
+  border: solid 1px;
+}
+@media only screen and (max-width: 750px) {
+  .streamStatus{
+    font-size:100%;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
