@@ -1,0 +1,49 @@
+body{
+  text-align:center;
+  background-color:black;
+  color:red;
+}
+
+p{
+  font-size:20px;
+  display:inline;
+}
+
+
+h2{
+  margin-top:40px;
+}
+h4{
+  cursor:pointer;
+  margin:0 auto;
+}
+h3{
+  display:inline;
+}
+
+#tickType{
+  cursor: pointer;
+  font-weight:bold;
+}
+
+button{
+  width: 95px;
+  height: 95px;
+  font-size:100px;
+  line-height: 0;
+}
+
+.flex-grid {
+  display: flex;
+  max-width:300px;
+  margin: 0 auto;
+  
+}
+
+.column {
+  margin: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  margin:1%;
+}
